@@ -1,0 +1,55 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.Container{
+
+
+    
+    background: White;
+    display: flex;
+    align-items: center;
+    margin: 10;
+    padding: 10;
+    justify-content: center;
+}
+
+            .Calculator form input {
+                border: 0;
+                outline: 0;
+                width: 20px;
+                height: 20px;
+                size: 50px;
+                background:wheat;
+                font-size: 10px;
+                font: bold;
+                color:black;
+                cursor: pointer;
+                margin: 10;
+                
+            }
+            .Display {
+                background-color: darkslategray;
+                
+                padding: 10px;
+                border-radius: none;
+
+            }
+            .Display form input{
+                border: 0;
+                outline: 0;
+                width: 20px;
+                height: 20px;
+                box-sizing:100px;
+                size: 50px;
+               background:whitesmoke;
+                font-size: 10px;
+                font: bold;
+                color:black;
+                cursor: pointer;
+                margin: 10;
+                
+            }
